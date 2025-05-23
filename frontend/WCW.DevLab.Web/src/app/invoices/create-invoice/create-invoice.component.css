@@ -1,0 +1,55 @@
+.invoice-container {
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.invoice-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.form-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-end;
+}
+
+.form-field {
+  flex: 1 1 250px;
+}
+
+.invoice-table {
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table-field {
+  width: 100%;
+}
+
+.product-image {
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.totals {
+  align-self: flex-end;
+  text-align: right;
+  margin-top: 16px;
+}
+
+.totals-row {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
