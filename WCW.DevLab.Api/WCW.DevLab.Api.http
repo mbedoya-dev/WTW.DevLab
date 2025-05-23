@@ -1,0 +1,6 @@
+@WCW.DevLab.Api_HostAddress = http://localhost:5196
+
+GET {{WCW.DevLab.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

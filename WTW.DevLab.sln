@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{A4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{A7B83C4F-562B-4FEE-B009-3FB7AE2153E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCW.DevLab.Api", "WCW.DevLab.Api\WCW.DevLab.Api.csproj", "{9F694B5F-9629-4C54-9A06-AF3935CE6C04}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F694B5F-9629-4C54-9A06-AF3935CE6C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F694B5F-9629-4C54-9A06-AF3935CE6C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F694B5F-9629-4C54-9A06-AF3935CE6C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F694B5F-9629-4C54-9A06-AF3935CE6C04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F694B5F-9629-4C54-9A06-AF3935CE6C04} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36A265A8-69F8-407C-A56F-4764EB81CFCE}
