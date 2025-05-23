@@ -8,8 +8,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{A4775456-F51D-4C3E-8FBE-027BE78D83E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{A7B83C4F-562B-4FEE-B009-3FB7AE2153E3}"
+	ProjectSection(SolutionItems) = preProject
+		schema.sql = schema.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCW.DevLab.Api", "WCW.DevLab.Api\WCW.DevLab.Api.csproj", "{9F694B5F-9629-4C54-9A06-AF3935CE6C04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored_procedures", "stored_procedures", "{DF8F8E26-A1EC-4550-8A91-8C8CC419E42F}"
+	ProjectSection(SolutionItems) = preProject
+		sp_CreateInvoice.sql = sp_CreateInvoice.sql
+		sp_GetAllClients.sql = sp_GetAllClients.sql
+		sp_GetAllProducts.sql = sp_GetAllProducts.sql
+		sp_GetProductById.sql = sp_GetProductById.sql
+		sp_SearchInvoiceByClient.sql = sp_SearchInvoiceByClient.sql
+		sp_SearchInvoiceByNumber.sql = sp_SearchInvoiceByNumber.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +40,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9F694B5F-9629-4C54-9A06-AF3935CE6C04} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DF8F8E26-A1EC-4550-8A91-8C8CC419E42F} = {A7B83C4F-562B-4FEE-B009-3FB7AE2153E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36A265A8-69F8-407C-A56F-4764EB81CFCE}
